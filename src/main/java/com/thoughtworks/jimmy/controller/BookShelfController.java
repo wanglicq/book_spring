@@ -71,7 +71,7 @@ public class BookShelfController {
     @RequestMapping(value = "remove", method = RequestMethod.POST)
     public String removeBook(Book book) {
 
-        bookService.delete(book);
+        bookService.delete(book.getIsbn());
         return "redirect:/";
 
     }
