@@ -48,7 +48,7 @@ implement `create new book` functionality.
 - Data Repository
 
 
-## 我的一点小结，可能有些理解错误的地方
+## 我的一点理解，可能有些理解错误的地方
 
 1.@controller放在类名前
 
